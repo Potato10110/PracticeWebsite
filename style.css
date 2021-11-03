@@ -50,7 +50,7 @@ li,a{
 	padding: 0 20px;
 }
 
-.navmenu li a.active{
+.navmenu li a.active {
 	border-bottom: 2px solid #fff44f;
 }
 
@@ -109,7 +109,7 @@ img{
 }
 
 .bg{
-	background-image: url('components/one.jpg');
+	background-image: url("one.jpg");
 }
 .about{
 	text-align: center;	
@@ -133,10 +133,37 @@ img{
 
 footer{
 	background-color: #4f4f4f;
+	width: 100%;
+	height: 220px;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
 }
-
-.footNav li{
-	display: inline-block;
+textarea{
+	width: 500px;
+	height: 100px;
+	resize: none;
+	border-radius: 15px;
+	padding: 10px;
+}
+.send{
+	width: 5rem;
+	height: 1.5rem;
+	border: none;
+	border-radius: 10px;
+	color: black;
+}
+.comments{
+	padding-top: 30px;
+}
+.footNav{
+	display: flex;
 	align-items: center;
 	justify-content: center;
 }
+.footNav ul {
+	font-size: 1.5em;
+	line-height: 1.6em;
+	margin-left: 15rem;
+}
+
