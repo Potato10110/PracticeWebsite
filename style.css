@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+*{
+	scroll-behavior: smooth;
+}
+body{
+	background-color: #24252A;
+	margin: 0;
+	padding: 0;
+	
+}
+
+header{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0 10%;
+}
+
+h1{
+	color: #fff;
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.2em;
+	font-weight: 400;
+	margin-right: auto;
+}
+
+.container{
+	width: 70%;
+	margin: auto;
+}
+.clr{
+	clear: both;
+}
+.logo{
+	font-family: 'Dancing Script', cursive;
+}
+
+li,a{
+	color: #fff;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+.navmenu ul{
+	list-style: none;
+}
+
+.navmenu li{
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.navmenu li a.active{
+	border-bottom: 2px solid #fff44f;
+}
+
+.navmenu li a:hover{
+	border-bottom: 2px solid #fff44f;
+}
+p{
+	color: #ffff;
+	font-family: sans-serif; 
+}
+img{
+	width: 100px;
+	height: 900px;
+}
+.showcase{
+	margin-top: 50px;
+}
+.paragraph{
+	float: left;
+	width: 40%;
+	margin-top: 150px;
+}
+@media(max-width: 600px){
+	.paragraph{
+		width: 100%;
+		float: none;
+	}
+}
+.paragraph h1{
+	font-size: 1.7rem;
+}
+.paragraph b{
+	color: #00808080;
+}
+.img{
+	float: right;
+	width: 60%;
+}
+
+@media(max-width: 600px){
+	.img{
+		width: 100%;
+		float: none;
+		visibility: hidden;
+	}
+}
+
+.btn{
+	border-radius: 10px;
+	border: none;
+	background-color: #008080;
+	color: #ffff;
+	padding: 18px;
+	cursor: pointer;
+	margin-top: 16px;
+}
+
+.bg{
+	background-image: url('components/one.jpg');
+}
+.about{
+	text-align: center;	
+	margin: 20px;
+	height: 500px;
+}
+
+.AboutH{
+	font-size: 4em;
+	margin-bottom: 0;
+}
+.aboutP{
+	line-height: 1.6rem;
+}
+@media(max-width: 600px){
+	.aboutP{
+		width: 100%;
+		text-align: justify;
+	}
+}
+
+footer{
+	background-color: #4f4f4f;
+}
+
+.footNav li{
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+}
